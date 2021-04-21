@@ -1,0 +1,27 @@
+#app{
+  font-family:'Roboto';
+  font-size:12px;
+  overflow-x:hidden;
+  word-break: keep-all;
+
+  .v-btn{
+    letter-spacing:0px;
+  }
+
+  .v-dialog{
+    border-radius:10px
+  }
+
+  ul,ol{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+  }
+
+  input::placeholder{
+    color:#888;
+    font-weight:normal;
+  }
+}
+
+
